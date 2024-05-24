@@ -1,0 +1,7 @@
+[user]
+	name = Davis Barber
+    email = barberdt@gmail.com
+[includeIf "gitdir:~/barberdt/"]
+	path = ~/.gitconfig-barberdt
+[includeIf "gitdir:~/teachable/"]
+	path = ~/.gitconfig-teachable
